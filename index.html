@@ -35,14 +35,78 @@
    
     <!-- main css -->
   <link rel="stylesheet" href="./style/style.css">
+  <!-- darktheme css  -->
+  <link rel="stylesheet" href="./style/darktheme.css">
 
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
+  <header id="header" class="header">
+    <div class="container">
+      <nav class="header__content">
+          <a href="#" class="logo-brand">Diner</a>
+
+          <div class="header__right">
+              <div class="search-field">
+                  <form>
+                      <input type="text" placeholder="Search here.." />
+                      <i class="fa fa-search search__icon"></i>
+                  </form>
+              </div>
+
+              <div class="theme-buttons-container">
+                  <div class="theme-switch-wrapper">
+                      <button class="theme-toggle-btn" id="themeToggle">
+                          <i class="fa-solid fa-moon"></i>
+                          <i class="fa-solid fa-sun"></i>
+                      </button> 
+                  </div>
+              </div>
+
+              <div>
+                  <button class="nav-toggle-btn" id="openOverlayButton">
+                      <i class="fa fa-bars"></i>
+                  </button>
+              </div>
+          </div>
+
+          <div class="overlay overlay-scale" id="navOverlay">
+              <button type="button" class="overlay-close" id="closeOverlayButton">
+                  <i class="fa fa-times"></i>
+              </button>
+              <nav>
+                  <ul class="overlay-menu">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Blog Posts</a></li>
+                      <li><a href="#">404 page</a></li>
+                      <li><a href="#">Elements</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Landing page</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </nav>
+    </div>
   </header>
   <main>
+    <section class="carouselDiner">
+      <div class="carousel__content">
+          <div class="container">
+              <div class="carousel__info">
+                  <h2>The only thing we love more than food is you!</h2>
+
+                  <p class="pr-lg-5">
+                      Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed
+                      consequuntur illum facere.
+                  </p>
+
+                  <a href="#" class="btn mt-3 mt-sm-5"> Read More &nbsp; <i class="fa fa-chevron-right"></i></a>
+              </div>
+          </div>
+      </div>
+    </section>
     <section class="container py-md-5 aboutUs">
       <div class="row aboutUsContent">
         <div class="contentLeft col-lg-5">
@@ -391,7 +455,7 @@
                 </div>
               </a>
               <div class="blog__picTitle">
-                <a href="https://wp.w3layouts.com/diner/category/drinks/">Drink</a>
+                <a href="https://wp.w3layouts.com/diner/category/drinks/">Drinks</a>
               </div>
             </div>
             <div class="card__body p-0">
@@ -420,7 +484,7 @@
                 </div>
               </a>
               <div class="blog__picTitle">
-                <a href="https://wp.w3layouts.com/diner/category/drinks/">Drink</a>
+                <a href="https://wp.w3layouts.com/diner/category/drinks/">Drinks</a>
               </div>
             </div>
             <div class="card__body p-0">
@@ -451,7 +515,7 @@
                 </div>
               </a>
               <div class="blog__picTitle">
-                <a href="https://wp.w3layouts.com/diner/category/drinks/">Drink</a>
+                <a href="https://wp.w3layouts.com/diner/category/drinks/">Food</a>
               </div>
             </div>
             <div class="card__body p-0">
@@ -717,6 +781,7 @@
     });
   </script>
   <script src="./Js/PopUp/jquery.magnific-popup.min.js"></script>
+  <script src="./Js/main.js"></script>
 
 </body>
 
