@@ -14,3 +14,93 @@
     border: 1px solid #232220
 } */
 /* Khi nao mentor kiem tra Darktheme thi mo comment giup em nha <3 */
+
+body.dark {
+    background-color: #232220;
+}
+.dark .header__right input {
+    background-color: #232220;
+    border: 1px solid #232220;
+    color: #eee;
+}
+.dark .aboutUs {
+    background-color: #232220;
+}
+.dark .aboutUs .leftContent {
+    color: #eee;
+}
+.dark .aboutUs p {
+    color: #c2d0da;
+}
+.dark .agent .agentContent {
+    color: #eeeeee;
+}
+.dark .agent .agentSub a {
+    color: #eeeeee;
+}
+.dark .categories {
+    background: #282828;
+}
+.dark .categoriesText {
+    color: #eeeeee;
+}
+.dark .service {
+    background-color: #232220;
+}
+.dark .service .serviceItem .itemWrap {
+    background-color: #232220;
+}
+.dark .service .serviceItem .itemWrap .itemTop .itemIcon {
+    background-color: #282828;
+}
+.dark .service .serviceItem .itemWrap:hover .itemIcon {
+    background-color: #ff6600;
+}
+.dark .service .serviceItem .itemWrap .itemTop .itemText a {
+    color: #eee;
+}
+.dark .service .serviceItem .itemWrap p {
+    color: #c2d0da;
+}
+.dark .statsItem .statsCounter {
+    background-color: #232220;
+}
+.dark .stats .statsItem .statsCounter .counter {
+    color: #eee;
+}
+.dark .stats .statsItem .statsCounter .counterText {
+    color: #c2d0da;
+}
+.dark .video-popup {
+    background-color: #232220;
+}
+.dark .blog--Text {
+    color: #eee;
+}
+.dark .blog {
+    background-color: #282828;
+}
+.dark .blog a.card-title {
+    color: #eee;
+}
+.dark .blog .card__info a {
+    color: #eee;
+}
+.dark .blog .card__footer a.read {
+    color: #eee;
+}
+.dark .feedback__Text {
+    color: #eee;
+}
+.dark blockquote q {
+    color: #eee;
+}
+.dark .feedback__content .people__info h3 {
+    color: #eee;
+}
+.dark .footer__social a {
+    background-color: #232220;
+}
+.dark footer .form-control {
+    background-color: #232220;
+}
