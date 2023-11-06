@@ -21,3 +21,7 @@ themeToggleBtn.addEventListener('click', () => {
 });
 
 
+// Switch theme
+themeToggleBtn.addEventListener('click', function () {
+    document.getElementById('myBody').classList.toggle('dark');
+});
