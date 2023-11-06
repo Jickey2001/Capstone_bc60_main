@@ -98,6 +98,9 @@ body.dark {
 .dark .feedback__content .people__info h3 {
     color: #eee;
 }
+.dark .feedback__content .feedback__item p {
+    color: #c2d0da
+}
 .dark .footer__social a {
     background-color: #232220;
 }
