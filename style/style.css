@@ -88,6 +88,7 @@ ul{
 .theme-toggle-btn {
     width: 25px;
     height: 25px;
+    line-height:25px;
     background: transparent;
     color: white;
     border: transparent;
